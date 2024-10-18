@@ -1,0 +1,49 @@
+:root {
+    /* Emerald color pallete from tailwind */
+    --base-color: #ecfdf5;
+    --primary-color: #047857;
+    --secondary-color: #10b981;
+    --sidebar-width: 250px;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--base-color);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: var(--sidebar-width) 1fr;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: var(--primary-color);
+    color: var(--base-color);
+    padding: 20px;
+}
+
+.sidebar h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.header Ơ{
+
